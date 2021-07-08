@@ -1,3 +1,6 @@
+https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/webpack
+
+
 STEPS 
 1. npm init -y
 2. npm install webpack webpack-cli --save-dev
@@ -44,3 +47,5 @@ https://webpack.js.org/guides/getting-started/
             type: 'asset/resource',
         },
 
+8. html webpack plugin: https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin
+    npm install --save-dev html-webpack-plugin
