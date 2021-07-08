@@ -56,6 +56,7 @@ https://webpack.js.org/guides/getting-started/
         devtool: 'inline-source-map'
 
 
-10. 
+10. live reload. Check out the watch and webpack-dev-server (also middleware)sections here 
+        https://webpack.js.org/guides/development/#choosing-a-development-tool
 
 
