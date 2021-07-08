@@ -17,6 +17,10 @@ STEPS
 ├── package.json
 └── webpack.config.js (view this repository's config to see what to add)
 
+5. command for bundling: 
+    npx webpack
+
+
 on config files: 
 As of version 4, webpack doesn't require any configuration, but most projects will need a more complex setup, which is why webpack supports a configuration file.
 https://webpack.js.org/guides/getting-started/
