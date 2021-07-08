@@ -3,11 +3,17 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
+  devtool: 'inline-source-map',
+  devServer: {
+
+    contentBase: './dist',
+
+  },
   plugins: [
 
     new HtmlWebpackPlugin({
 
-      title: 'Output Management',
+      title: 'Development', //title of webpage that appears in tab and top of browser
 
     }),
 
@@ -16,7 +22,7 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  mode: 'production', // | 'development' | 'none'
+  mode: 'development', // | 'production' | 'none'
 
   module: {
     rules: [

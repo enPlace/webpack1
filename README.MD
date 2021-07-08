@@ -49,3 +49,13 @@ https://webpack.js.org/guides/getting-started/
 
 8. html webpack plugin: https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin
     npm install --save-dev html-webpack-plugin
+
+9. debugging: 
+    in .config file: 
+        mode: 'development', // | 'production' | 'none'
+        devtool: 'inline-source-map'
+
+
+10. 
+
+
