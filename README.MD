@@ -7,7 +7,7 @@ STEPS
 
 4. directory: 
 ├── dist
-│   ├── main.js
+│   ├── bundle.js
 │   └── index.html
 ├── src
 │   ├── index.js 
@@ -24,4 +24,23 @@ STEPS
 on config files: 
 As of version 4, webpack doesn't require any configuration, but most projects will need a more complex setup, which is why webpack supports a configuration file.
 https://webpack.js.org/guides/getting-started/
+
+6. css files: 
+6a. npm install --save-dev style-loader css-loader
+6b. add to config: 
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
+
+7. image files: 
+    add to config
+        {//for imgs
+            test: /\.(png|svg|jpg|jpeg|gif)$/i,
+            type: 'asset/resource',
+        },
 
